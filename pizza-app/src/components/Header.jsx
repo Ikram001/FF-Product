@@ -1,4 +1,4 @@
-import { useCustomer } from '../context/CustomerContext'
+import { useCustomer } from '../cartPages/CustomerName'
 
 function Header() {
   const { name } = useCustomer()

@@ -3,8 +3,8 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 import App from './App.jsx';
 import { BrowserRouter } from 'react-router-dom';
-import { CartProvider } from './context/CartContext';
-import { CustomerProvider } from './context/CustomerContext';
+import { CartProvider } from './cartPages/CartValues.jsx';
+import { CustomerProvider } from './cartPages/CustomerName.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

@@ -2,10 +2,10 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './pages/Home';
 import Menu from './pages/Menu';
-import CartPage from './pages/CartPage';
-import CartOverview from './CartOverview';
-import OrderForm from './OrderForm';
-import OrderStatus from './OrderStatus';
+import CartPage from './pages/CartHomePage';
+import CartOverview from './CartBar';
+import OrderForm from './OrderF';
+import OrderStatus from './OrderS';
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import { useCustomer } from '../context/CustomerContext'
+import { useCustomer } from '../cartPages/CustomerName'
 
 function Home() {
   const { name, setName } = useCustomer()
